@@ -51,3 +51,5 @@ group :test do
   gem 'faker', '~>1.8.4'
   gem 'database_cleaner', '~>1.6.1'
 end
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
